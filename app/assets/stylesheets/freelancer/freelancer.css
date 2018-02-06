@@ -93,6 +93,7 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
+    border-radius: 50%;
 }
 
 header .intro-text .name {
@@ -115,7 +116,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 2.75em;
     }
 
     header .intro-text .skills {
@@ -148,7 +149,6 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
