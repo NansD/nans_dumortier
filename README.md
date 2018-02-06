@@ -1,16 +1,15 @@
-== Portolio website - Nans Dumortier
+# Portolio website - Nans Dumortier
 
+## Introduction
 This project allows me to present myself and to show my skills.
 It is based on Mr Powers' [Rails implementation](https://github.com/MrPowers/rails-startbootstrap-freelancer) of the [Start Bootstrap Freelancer theme](https://startbootstrap.com/template-overviews/freelancer/).
 
-
+## General technical information and documentation
 * Ruby version : `2.4.1`
 
+* Database creation : _TO DO_
 
-* Database creation : TO DO
+* Database initialization : _TO DO_
 
-* Database initialization : TO DO
-
-
-* Deployment instructions : TO DO
+* Deployment instructions : _TO DO_
 
