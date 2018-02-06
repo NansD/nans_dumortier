@@ -1,28 +1,16 @@
-== README
+== Portolio website - Nans Dumortier
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project allows me to present myself and to show my skills.
+It is based on Mr Powers' [Rails implementation](https://github.com/MrPowers/rails-startbootstrap-freelancer) of the [Start Bootstrap Freelancer theme](https://startbootstrap.com/template-overviews/freelancer/).
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Ruby version : `2.4.1`
+
+
+* Database creation : TO DO
+
+* Database initialization : TO DO
+
+
+* Deployment instructions : TO DO
+
