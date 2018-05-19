@@ -1,11 +1,14 @@
 class FreelancersController < ApplicationController
-  layout "freelancer"
+  layout 'freelancer'
 
-  def index
-  end
+  def index; end
 
   def contact_freelancer
-    render json: params.to_json
+    email = params[:email]
+    message = params[:message]
+    name = params[:name]
+    phone = params[:phone]
+    Notifier.notify_freelancer(email, message, name, phone).deliver
+    render nothing: true
   end
 end
-
