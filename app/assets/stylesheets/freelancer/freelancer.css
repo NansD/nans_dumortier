@@ -412,6 +412,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content img {
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 
@@ -457,4 +458,18 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.modal-body > p {
+    text-align: justify;
+}
+
+.modal-body li {
+    text-align: justify;
+    font-size: 20px;<
+}
+
+.img-responsive{
+    max-height: 300px;
+    margin: auto;
 }
