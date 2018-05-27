@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock '~> 3.10.2'
 
-server '52.47.60.252', roles: %i[web app], primary: true
+server '52.47.60.252', user: 'deploy' , roles: %i[web app], primary: true
 
 set :application, 'nans_dumortier'
 set :repo_url, 'git@github.com:NansD/nans_dumortier.git'
